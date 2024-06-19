@@ -1,0 +1,58 @@
+.wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    flex-direction: column;
+}
+
+.button {
+    margin-bottom: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    min-height: 40px;
+    width: 250px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.singleselection {
+    background-color: rgb(255, 217, 208);
+    color: #3a0000
+}
+
+.multiselection {
+    background-color: #CCEECC;
+    color: #003A00
+}
+
+.accordion {
+    width: 800px;
+
+}
+
+.item {
+    background: #70EF99;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.title {
+    color: #3A3A3A;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.content {
+    color: #3A3A3A;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
